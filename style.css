@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("image/wp4326834.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+    /* background-size: contain; */
+    /* background-origin: content-box; */
+    
+}
+
+.header_container{
+    display: flex;
+    justify-content: center;    
+}
+
+.header{
+    height: 50px;
+    background-color: brown;
+    width: 500px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.input_box{
+
+    background-color: rgb(124, 209, 144);
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.button_container button{
+    height: 40px;
+    width: 200px;
+    background-color: chocolate;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.ans{
+    background-color: green;
+    margin-left: 80px;
+    height: 50px;
+    min-width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+.ans h1{
+    text-align: center;
+    padding-top: 6px;
+}
+.equalTo{
+    margin-top:5px ;
+    margin-left: 80px;
+}
